@@ -1,2 +1,2 @@
 # reddit-personal-archive-script
-This is a personal, read-only Python script using PRAW to archive public posts, comments, and linked media from selected subreddits to my local laptop for personal archival purposes. It stores post IDs in SQLite to avoid duplicate API requests and does not vote, comment, message users, evade rate limits, or redistribute Reddit data.
+This is a personal read-only archival script. It uses PRAW to access public subreddit submissions and comments, saves metadata/text locally as JSON/SQLite, downloads linked public media where available, uses stored post IDs and file hashes to avoid duplicates, and runs at a low scheduled frequency. It does not post, comment, vote, message users, bypass rate limits, sell data, or redistribute archived content.
